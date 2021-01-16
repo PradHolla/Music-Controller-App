@@ -39,7 +39,7 @@ npm run dev
 ```
 
 ## Hosting in a LAN
-Apart from the hosting with `python ./manage.py runserver`, the server can also be hosted in your Local Area Network too. 
+Apart from the hosting with `python ./manage.py runserver`, the server can also be hosted in your Local Area Network. 
 Start the web server as:
 ```python
 python .\manage.py runserver 0.0.0.0:8000
@@ -47,3 +47,6 @@ python .\manage.py runserver 0.0.0.0:8000
 Before connecting to your web server, you have to include your IP Address in `controller/settings.py` at line 28 under `ALLOWED_HOSTS`. (Enter `ipconfig` to find out your IPV4 Address)
 
 To connect to the server, enter `Your IP Address:8000` in your mobile device.
+
+## Spotify
+There are 2 options in the Home Page. `Join a Room` and `Create a Room`. The former asks you to enter a previously generated room code and the latter makes you the host of the room and generates a unique room code. Joining a room makes you a guest while Creating one makes you the host. The guest controls can be modified by the Host. 
