@@ -25,7 +25,7 @@ SECRET_KEY = 'whfxmu35o6%2)9z71og9*efq^7++so1%@i-nwekkj2d8&fi=$t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1'] # You can add your IP address here
+ALLOWED_HOSTS = ['127.0.0.1'] # You can include your IP address here
 
 
 # Application definition
