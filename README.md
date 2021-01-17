@@ -49,4 +49,10 @@ Before connecting to your web server, you have to include your IP Address in `co
 To connect to the server, enter `Your IP Address:8000` in your mobile device.
 
 ## Spotify
-There are 2 options in the Home Page. `Join a Room` and `Create a Room`. The former asks you to enter a previously generated room code and the latter makes you the host of the room and generates a unique room code. Joining a room makes you a guest while Creating one makes you the host. The guest controls can be modified by the Host. 
+There are 2 options in the Home Page. `JOIN A ROOM` and `CREATE A ROOM`. The former asks you to enter a previously generated room code and the latter makes you the host of the room and generates a unique room code. Joining a room makes you a guest while Creating one makes you the host. The guest controls can be modified by the Host.
+##### Note: There has to be a Host before there are Guests in a Room. 
+
+After you select `CREATE A ROOM`, you will be brought into the create page where you can modify `Guest` options. You can either leave it at the default settings or change it to your convenience.
+
+Inline-style: 
+![alt text]
