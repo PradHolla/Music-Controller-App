@@ -51,13 +51,30 @@ To connect to the server, enter `Your IP Address:8000` in your mobile device.
 ## Spotify
 There are 2 options in the Home Page. `JOIN A ROOM` and `CREATE A ROOM`. The former asks you to enter a previously generated room code and the latter makes you the host of the room and generates a unique room code. Joining a room makes you a guest while Creating one makes you the host. The guest controls can be modified by the Host.
 
-![alt text][logo]
-
-[logo]: (https://github.com/PradHolla/Music-Controller-App/blob/master/pictures/home.png "Home")
+<p align="center">
+<img src="pictures/home.png">
+</p>
 
 ##### Note: There has to be a Host before there are Guests in a Room. 
 
 After you select `CREATE A ROOM`, you will be brought into the create page where you can modify `Guest` options. You can either leave it at the default settings or change it to your convenience.
 
-Inline-style: 
-![alt text]
+<p align="center">
+<img src="pictures/create_room.png">
+</p>
+
+Once you modify your settings and proceed, you will be directed to the *Spotify Authentication Page* where you have to login and accept the terms.
+
+If you already have Spotify running in the background and playing a song, your screen will appear like this:
+
+<p align="center">
+<img src="pictures/room.png">
+</p>
+
+If that's not the case, open Spotify and start playing a song. Once again, this is just a Music Controller application as of now. Spotify is not browser integrated and users can only make use of this in a LAN.
+
+The host can also modify the settings for the room. When you select `SETTINGS`, you will be redirected to `Update Room` page where `Play/Pause` settings can be modified and the votes to skip a song can also be updated.
+
+<p align="center">
+<img src="pictures/update_room.png">
+</p>
