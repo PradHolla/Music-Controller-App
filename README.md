@@ -1,5 +1,5 @@
 # Music-Controller-App
-A Spotify integrated, music multiplayer application using Django and React.
+A Spotify integrated, music multiplayer application using Django and React. This project is designed to have a Music Jam across a local area network where the Host of the room has Spotify open in their system and the Guests vote on skipping the song and even pausing and playing, if the user gives the control of the playback. This is *not* an application that plays music on the respective browsers of Guests but in turn it plays on the Host's Spotify application which is connected to the browser where it can be connected to a common speaker. There is an API that supports playing in the browser and I might work on that in near future. For now, this application plays music *only* on the Host's Spotify application and it is recommended that the user has a Spotify Premium account to avail full functionality.
 
 ## Setup
 
@@ -48,7 +48,7 @@ Before connecting to your web server, you have to include your IP Address in `co
 
 To connect to the server, enter `Your IP Address:8000` in your mobile device.
 
-## Spotify
+## Room, Spotify and Music Playback
 There are 2 options in the Home Page. `JOIN A ROOM` and `CREATE A ROOM`. The former asks you to enter a previously generated room code and the latter makes you the host of the room and generates a unique room code. Joining a room makes you a guest while Creating one makes you the host. The guest controls can be modified by the Host.
 
 <p align="center">
@@ -78,3 +78,20 @@ The host can also modify the settings for the room. When you select `SETTINGS`, 
 <p align="center">
 <img src="pictures/update_room.png">
 </p>
+
+When you select `JOIN A ROOM` in the Home Page, the browser asks you to enter the Room Code you want to join.
+
+<p align="center">
+<img src="pictures/join_room.png">
+</p>
+
+Here, I have entered the code that was generated when I created the Room. When it verifies the code as valid, you are brought to the Room where you are the Guest.
+
+<p align="center">
+<img src="pictures/joined_room.png">
+</p>
+
+As you can see there is no `SETTINGS` option in the Guest Room and also, the Votes to skip a song has been updated to 5 when we changed back in the Host's Room. If 5 members in the room vote to skip a song, the song is skipped. But, the Host can skip a song directly without putting it to vote.
+
+## Conclusion
+These are the instructions on how to run this project. In a LAN, this application would be very much fun to use. In the future, I will try to work on the API where the browser itself can play the song so that this Music Jam can be utilized not only on LAN but with also people using this in different remote places altogether.
