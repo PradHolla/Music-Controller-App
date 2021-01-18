@@ -3,14 +3,14 @@ A Spotify integrated, music multiplayer application using Django and React. This
 
 ## Setup
 
-### Install the required modules and get the source code
+### Get the source code and install the required modules
 
 ```
-pip install -r requirements.txt
-
 git clone https://github.com/PradHolla/Music-Controller-App.git
 
 cd Music-Controller-App
+
+pip install -r requirements.txt
 ```
 
 ### Start the web server
