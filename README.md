@@ -38,6 +38,7 @@ or
 npm run dev
 ```
 
+Now, go to `127.0.0.1:8000` to open the application.
 ## Hosting in a LAN
 Apart from the hosting with `python ./manage.py runserver`, the server can also be hosted in your Local Area Network. 
 Start the web server as:
